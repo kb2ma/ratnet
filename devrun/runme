@@ -1,5 +1,6 @@
 # Run Ratnet
 
+export RATNET_CONFIG_FILE="$PWD/ratnet.conf"
 export PYTHONPATH=".." 
 
 echo "Starting Ratnet, logging to run.log"
