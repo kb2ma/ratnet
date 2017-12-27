@@ -1,0 +1,6 @@
+# Run Ratnet
+
+export PYTHONPATH=".." 
+
+echo "Starting Ratnet, logging to run.log"
+../ratnet/main.py >run.log 2>&1
