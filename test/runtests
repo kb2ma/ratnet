@@ -1,0 +1,10 @@
+#!/bin/bash
+# Runs all tests in this directory.
+
+echo Ratnet must be running already!
+read -t 10 -p "Press Enter or wait 10 seconds"
+
+echo Running tests
+export PYTHONPATH=..
+
+py.test -s --driver Firefox
